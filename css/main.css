@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #f0f0f0;
+  color: #000000;
   margin: 0;
   padding: 0;
 }
@@ -42,6 +43,7 @@ img {
   color: inherit;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 1rem;
 }
 
 form input,
@@ -68,4 +70,18 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: #ffffff;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
 }
